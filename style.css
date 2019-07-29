@@ -61,8 +61,8 @@
 }
 
 .popup {
-  margin: 70px auto;
-  margin-left: 20px;
+  margin: 6vw auto;
+  margin-left: 33px;
   padding:28px;
   background: #ac00e6;
   border-radius: 2vw;
@@ -109,14 +109,13 @@
 .btn{
   position: relative;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  margin: 14px;
-/*  padding: 20px,20px;*/
+  width: 130px;
+  height: 130px;
+  margin: 18px;
   float: left;
   text-align: center;
   color: white;
-  font-size: 2vw;
+  font-size: 1.5rem;
 }
 
 span.text-center{
