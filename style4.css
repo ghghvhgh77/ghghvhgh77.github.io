@@ -321,12 +321,11 @@
 
       .finball{
         position: relative;
-        z-index: 999;
-        top: -18.9vw;
+        z-index: 1000;
+        top: -30vw;
         left: 50%;
         width:5vw;
         height:5vw;
-    /*    visibility: hidden;*/
         transform: translate(-50%, -50%);
         background-color:lightgreen;
         border-radius: 50%;
@@ -340,7 +339,9 @@
         animation-direction: alternate;
         animation-play-state: running;
         animation-delay: 2.5s;
+        opacity: 0;
         }
+
 
       @keyframes move1{
       0%{
@@ -466,19 +467,24 @@
 
       @keyframes move6{
       0%{
-        top: 17.8vw;
-        left: 43%;
+        top: 1vw;
+        left: 56.8%;
         width:5vw;
         height:5vw;
         background-color:lightblue;
         }
 
+      50%{
+        top: 1.5vw;
+        left: 57.5%;
+        }
+
       100%{
-        top: 14vw;
-        left: 43%;
+        top: 3.2vw;
+        left: 56.5%;
         }
       }   
-
+      
       @keyframes move7{
       0%{
         top: -3vw;
@@ -634,6 +640,7 @@
         height:5vw;
         top: -18.9vw;
         left: 50%;
+        opacity: 1;
         }
       10%{
         width:5vw;
@@ -727,8 +734,10 @@
         height:5vw;
         top: -13.6vw;
         left: 93%;
+        opacity: 1;
         }
         }
+
 
 
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
@@ -795,7 +804,7 @@ body *{box-sizing: border-box;}
 }
 /* CSS Animation */
 .popup{
-  top: calc( 12em / 2 - 50vh - 12em); /* placing exactly above the view port 12em - height of popup*/;
+  top: calc( 12em / 2 - 49vh - 12em); /* placing exactly above the view port 12em - height of popup*/;
   transition: top 0.5s ;
   transition-timing-function: cubic-bezier(0.18, 0.15, 0.31, 1.87);
 }
