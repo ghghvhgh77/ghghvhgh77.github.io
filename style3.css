@@ -177,7 +177,7 @@
         animation-direction: alternate;
         animation-play-state: running;
         animation-delay: 1s;
-        }   
+        }  
 
       .ball7{
         position: relative;
@@ -342,6 +342,7 @@
         opacity: 0;
         }
 
+
       @keyframes move1{
       0%{
         width:5vw;
@@ -483,7 +484,7 @@
         left: 56.5%;
         }
       }   
-
+      
       @keyframes move7{
       0%{
         top: -3vw;
@@ -634,7 +635,7 @@
        
     @keyframes final{
 
-    0%{
+      0%{
         width:5vw;
         height:5vw;
         top: -18.9vw;
@@ -798,7 +799,6 @@ body *{box-sizing: border-box;}
   color: red;
   cursor: pointer;
 }
-
 .popup .close: hover {
   color: lightgreen;
 }
