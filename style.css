@@ -1,7 +1,4 @@
-/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
-
- * {
+* {
     margin: 0;
     padding: 0;
   }
