@@ -27,7 +27,6 @@
     transform: translate(-50%, -50%);
     }
 
-
   .handle{
     position: fixed;
     top:35.1vw;
@@ -178,7 +177,7 @@
         animation-direction: alternate;
         animation-play-state: running;
         animation-delay: 1s;
-        }  
+        }   
 
       .ball7{
         position: relative;
@@ -323,7 +322,7 @@
       .finball{
         position: relative;
         z-index: 1000;
-        top: -30%;
+        top: -30vw;
         left: 50%;
         width:5vw;
         height:5vw;
@@ -631,12 +630,11 @@
         top: -33.5vw;
         left: 51%;
         }
-      } 
-
+      }       
        
-    @keyframes final{     
+    @keyframes final{
 
-      0%{
+    0%{
         width:5vw;
         height:5vw;
         top: -18.9vw;
@@ -740,6 +738,7 @@
         }
 
 
+
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
 
 body{ 
@@ -779,14 +778,18 @@ body *{box-sizing: border-box;}
   padding: 30px;
   border-radius: 1.5vw;
 }
-    .linktomain:link{
+
+
+.linktomain:link{
     text-decoration: none;
-    color: red;
-    }
-    .linktomain:visited{
+      color: red;
+}
+
+.linktomain:visited{
     text-decoration: none;
-    color: red;
-    }
+      color: red;
+}
+
 .popup .close{
   position: absolute;
   font-size: 1.5em;
@@ -801,7 +804,7 @@ body *{box-sizing: border-box;}
 }
 /* CSS Animation */
 .popup{
-  top: calc( 12em / 2 - 49vh - 12em); /* placing exactly above the view port 12em - height of popup*/
+  top: calc( 12em / 2 - 49vh - 12em); /* placing exactly above the view port 12em - height of popup*/;
   transition: top 0.5s ;
   transition-timing-function: cubic-bezier(0.18, 0.15, 0.31, 1.87);
 }
