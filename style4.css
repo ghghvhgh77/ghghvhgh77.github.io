@@ -342,7 +342,6 @@
         opacity: 0;
         }
 
-
       @keyframes move1{
       0%{
         width:5vw;
@@ -483,7 +482,7 @@
         top: 3.2vw;
         left: 56.5%;
         }
-      }   
+      }  
       
       @keyframes move7{
       0%{
@@ -747,7 +746,7 @@ body{
   min-height: 100vh;
   position: relative;
   font-size: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 
 body *{box-sizing: border-box;}
@@ -780,7 +779,6 @@ body *{box-sizing: border-box;}
   border-radius: 1.5vw;
 }
 
-
 .linktomain:link{
     text-decoration: none;
       color: red;
@@ -790,10 +788,10 @@ body *{box-sizing: border-box;}
     text-decoration: none;
       color: red;
 }
-
 .popup .close{
   position: absolute;
   font-size: 1.5em;
+  font-weight: bold;
   top: 0.3em;
   right: 0.6em;
   color: red;
