@@ -78,7 +78,7 @@
      .ball1{
         position: absolute;
         top: 48.8vh;
-        left: 32vw;
+        left: 32.2vw;
         width:6vh;
         height:6vh;
         background-color: red;
@@ -198,7 +198,7 @@
       .ball7{
         position: absolute;
         top: 48vh;
-        left: 61vw;
+        left: 59.8vw;
         width:6vh;
         height:6vh;
         background-color:salmon;
@@ -361,16 +361,16 @@
       @keyframes move1{
       0%{
         top: 48.8vh;
-        left: 32vw;
+        left: 32.2vw;
         background-color: red;
         }
       50%{
         top: 47vh;
-        left: 30vw;
+        left: 29.8vw;
         }
       100%{
-        top: 45vh;
-        left: 28.7vw;
+        top: 44vh;
+        left: 29vw;
         }
       } 
 
@@ -445,23 +445,23 @@
       @keyframes move6{
       0%{
         top: 45vh;
-        left: 60vw;
+        left: 59vw;
         background-color:lightblue; /*오른쪽에서 왼쪽으로 움직이는애*/
         }
       50%{
         top: 46vh;
-        left: 63vw;
+        left: 60vw;
         }
       100%{
         top: 49vh;
-        left: 60vw;
+        left: 59vw;
         }
       }   
 
       @keyframes move7{
       0%{
         top: 48vh;
-        left: 61vw;
+        left: 59.8vw;
         background-color:salmon;
         }
       30%{
@@ -474,7 +474,7 @@
         }
       100%{
         top: 48.8vh;
-        left: 32vw;
+        left: 32.6vw;
       }
     }
 
@@ -526,7 +526,7 @@
         }
       100%{
         top: 43vh;
-        left: 53vw;
+        left: 52vw;
         }
       }
 
@@ -581,7 +581,7 @@
         }
       100%{
         top: 50vh;
-        left: 51vw;
+        left: 54vw;
         }
       } 
 
@@ -725,7 +725,7 @@ body *{box-sizing: border-box;}
 }
 /* CSS Animation */
 .popup{
-  top: calc( 37vw / 2 - 50% - 37vw ); /* placing exactly above the view port 12em - height of popup*/
+  top: calc( 100% / 2 - 50% - 100% ); /* placing exactly above the view port 12em - height of popup*/
   transition: top 0.5s ;
   transition-timing-function: cubic-bezier(0.18, 0.15, 0.31, 1.87);
 }
