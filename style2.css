@@ -6,6 +6,13 @@
   svg:not(:root) {
     overflow: visible;
   }
+
+  @media screen and (min-width: 768px){
+    .container{
+      width: 100%;
+      height: 100%;
+    }
+  }
   
   .container{
     position: fixed;
@@ -13,19 +20,18 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-image: radial-gradient(closest-side at 50% 50%, white 65%, lightpink, navy);
-/*  background-image: radial-gradient(white 62%, yellow, green 10%);*/
-
+/*    background-image: radial-gradient(closest-side at 50% 50%, white 65%, lightpink, navy);*/
+  background-image: radial-gradient(white 62%, #1D3C58 10%);
    /* background-image: radial-gradient(circle, red, yellow, green);*/
     /*background-image: repeating-radial-gradient(red, yellow 10%, green 15%);*/
-    }
+  }
 
   .imagebox {
     position: fixed;
     z-index: 998;
     top: 0;
     left: 0;
-    width: 50vw;
+    width: 50%;
     height: auto;
     top: 50%;
     left: 50%;
@@ -60,47 +66,9 @@
     border: 1.5px solid;
     }
 
- /*   .imagebox {
-    position: fixed;
-    z-index: 998;
-    top: 0;
-    left: 0;
-    width: 30vw;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-
-
-  .handle{
-    position: fixed;
-    top:35.1vw;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 6vw;
-    height: 6vw;
-    margin-left: -3vw;
-    background-color: gray;
-    border-radius: 50%;
-    border: 1.5px solid;
-    transform: rotate( 0deg );
-    transition: all 0.4s;
-    }
-
-  .babyhandle{
-    position: relative;
-    width: 113%;
-    height: 1vw;
-    border-radius: 30%;
-    top: 50%;
-    left: -7%;
-    transform: translateY(-50%);
-    background-color: gray;
-    border: 1.5px solid;
-    }*/
 
     .movingballs{
+/*        position: absolute;*/
         width: 100%;
         height: 100%;
         top: 0;
@@ -108,9 +76,9 @@
     }
 
      .ball1{
-        position: relative;
-        top: 344.063px;    768px;
-        left: 39%;
+        position: absolute;
+        top: 48.8vh;
+        left: 32vw;
         width:6vh;
         height:6vh;
         background-color: red;
@@ -128,9 +96,9 @@
         }
 
       .ball2{
-        position: relative;
-        top: 215.05px;
-        left: 47%;
+        position: absolute;
+        top: 42vh;
+        left: 48vw;
         width:6vh;
         height:6vh;
         background-color: lightgreen;
@@ -148,9 +116,9 @@
         }
 
       .ball3{
-        position: relative;
-        top: 30.4%;
-        left: 43%;
+        position: absolute;
+        top: 49.1vh;
+        left: 38vw;
         width:6vh;
         height:6vh;
         background-color:yellow;
@@ -168,9 +136,9 @@
         }
 
       .ball4{
-        position: relative;
-        top: 23%;
-        left: 51.5%;
+        position: absolute;
+        top: 50vh;
+        left: 53vw;
         width:6vh;
         height:6vh;
         background-color:purple;
@@ -188,9 +156,9 @@
         }
 
       .ball5{
-        position: relative;
-        top: 7%;
-        left: 45%;
+        position: absolute;
+        top: 44.5vh;
+        left: 43vw;
         width:6vh;
         height:6vh;
         background-color:lightpink;
@@ -208,9 +176,9 @@
         }
 
       .ball6{
-        position: relative;
-        top: 1.6%;
-        left: 56.8%;
+        position: absolute;
+        top: 45vh;
+        left: 60vw;
         width:6vh;
         height:6vh;
         background-color: lightblue;
@@ -228,9 +196,9 @@
         }  
 
       .ball7{
-        position: relative;
-        top: -5.22%;
-        left: 55.5%;
+        position: absolute;
+        top: 48vh;
+        left: 61vw;
         width:6vh;
         height:6vh;
         background-color:salmon;
@@ -248,9 +216,9 @@
         }
 
       .ball8{
-        position: relative;
-        top: -19.8%;
-        left: 41%;
+        position: absolute;
+        top: 44vh;
+        left: 35vw;
         width:6vh;
         height:6vh;
         background-color:green;
@@ -268,9 +236,9 @@
         }
 
       .ball9{
-        position: relative;
-        top: -28.16%;
-        left: 49%;
+        position: absolute;
+        top: 46vh;
+        left: 49.3vw;
         width:6vh;
         height:6vh;
         background-color:#FF6619;
@@ -288,9 +256,9 @@
         }  
 
       .ball10{
-        position: relative;
-        top: -37.55%;
-        left: 53%;
+        position: absolute;
+        top: 43.7vh;
+        left: 55vw;
         width:6vh;
         height:6vh;
         background-color:lightblue;
@@ -308,9 +276,9 @@
         }  
 
       .ball11{
-        position: relative;
-        top: -47.8%;
-        left: 58.8%;
+        position: absolute;
+        top: 43vh;
+        left: 64vw;
         width:6vh;
         height:6vh;
         background-color:yellow;
@@ -328,9 +296,9 @@
         }  
 
       .ball12{
-        position: relative;
-        top: -56.3%;
-        left: 36.2%;
+        position: absolute;
+        top:45vh;
+        left: 27.6vw;
         width:6vh;
         height:6vh;
         background-color:purple;
@@ -348,9 +316,9 @@
         }
 
       .ball13{  
-        position: relative;
-        top: -56.3%;
-        left: 47%;
+        position: absolute;
+        top: 50vh;
+        left: 45vw;
         width:6vh;
         height:6vh;
         background-color:blue;
@@ -371,7 +339,7 @@
         position: relative;
         z-index: 1000;
         top: -26vh;
-        left: 50%;
+        left: 50vw;
         width:6vh;
         height:6vh;
         transform: translate(-50%, -50%);
@@ -392,273 +360,233 @@
 
       @keyframes move1{
       0%{
-        top:44.8%;
-        left: 39%;
-        width:6vh;
-        height:6vh;
+        top: 48.8vh;
+        left: 32vw;
         background-color: red;
         }
-      55%{
-        top: 41.5%;
-        left: 37.5%;
+      50%{
+        top: 47vh;
+        left: 30vw;
         }
       100%{
-        top: 38%;
-        left: 36.1%;
-        width:6vh;
-        height:6vh;
+        top: 45vh;
+        left: 28.7vw;
         }
       } 
 
       @keyframes move2{
       0%{
-        top: 28%;
-        left: 47%;
-        width:6vh;
-        height:6vh;
+        top: 42vh;
+        left: 47vw;
         background-color: lightgreen;
         }
       50%{
-        top: 34.1%;
-        left: 45%;
+        top: 45vh;
+        left: 45vw;
         }
       100%{
-        top: 41%;
-        left: 47%;
-        width:6vh;
-        height:6vh;
+        top: 49vh;
+        left: 47vw;
         }
       } 
 
-    /*  @keyframes move3{
+      @keyframes move3{
       0%{
-        top: 30.4%;
-        left: 43%;
-        width:6vh;
-        height:6vh;
+        top: 49.1vh;
+        left: 38vw;
         background-color:yellow;
         }
       50%{
-        top: 29%;
-        left: 42%;
+        top: 47.5vh;
+        left: 37vw;
         }
       100%{
-        top: 23.4%;
-        left: 41.1%;
-        width:6vh;
-        height:6vh;
+        top: 46.4vh;
+        left: 36vw;
         }
       } 
 
       @keyframes move4{
       0%{
-        top: 23%;
-        left: 51.5%;
-        width:6vh;
-        height:6vh;
+        top: 50vh;
+        left: 53vw;
         background-color:purple;
         }
-      30%{
-        top: 7%;
-        left: 55%;
-        }
-      60%{
-        top: 3.5%;
-        left: 53%;
+      0%{
+        top: 34vh;
+        left: 57vw;
         }
       100%{
-        top: 15.7%;
-        left: 45%;
-        width:6vh;
-        height:6vh;
+        top: 46vh;
+        left: 44vw;
         }
       } 
 
       @keyframes move5{
       0%{
-        top: 7%;
-        left: 45%;
-        width:6vh;
-        height:6vh;
+        top: 44.5vh;
+        left: 43vw;
         background-color:lightpink;
         }
       40%{
-        top: -10.45%;
-        left: 51%;
+        top: 38vh;
+        left: 51vw;
         }
       70%{
-        top: -3.5%;
-        left: 55%;
+        top: 32vh;
+        left: 55vw;
         }
       100%{
-        top: 3.5vw;
-        left: 58%;
-        width:6vh;
-        height:6vh;
+        top: 44vh;
+        left: 58vw;
         }
       } 
 
       @keyframes move6{
       0%{
-        top: 1.7%;
-        left: 56.8%;
-        width:6vh;
-        height:6vh;
-        background-color:lightblue;
+        top: 45vh;
+        left: 60vw;
+        background-color:lightblue; /*오른쪽에서 왼쪽으로 움직이는애*/
         }
-
       50%{
-        top: 2.55%;
-        left: 57.3%;
+        top: 46vh;
+        left: 63vw;
         }
-
       100%{
-        top: 5.44%;
-        left: 55.5%;
+        top: 49vh;
+        left: 60vw;
         }
       }   
 
       @keyframes move7{
       0%{
-        top: -5.22%;
-        left: 55.5%;
-        width:6vh;
-        height:6vh;
+        top: 48vh;
+        left: 61vw;
         background-color:salmon;
         }
+      30%{
+        top: 52vh;
+        left: 40vw;
+        }
       50%{
-        top: -1.7%;
-        left: 42%;
+        top: 50vh;
+        left: 40vw;
         }
       100%{
-        top: -7.5%;
-        left: 37.6%;
-        }
-      }  
+        top: 48.8vh;
+        left: 32vw;
+      }
 
       @keyframes move8{
       0%{
-        top: -19.8%;
-        left: 41%;
-        width:6vh;
-        height:6vh;
+        top: 44vh;
+        left: 35vw;
         background-color:green;
         }
       50%{
-        top: -30.7%;
-        left: 38%;
+        top: 30vh;
+        left: 38vw;
         }
       60%{
-        top: -40.9%;
-        left: 41%;
+        top: 40.9vh;
+        left: 41vw;
         }
       80%{
-        top: -29%;
-        left: 43%;
+        top: 29vh;
+        left: 43vw;
         }      
       100%{
-        top: -12%;
-        left: 40.4%;
-        width:6vh;
-        height:6vh;
+        top: 12vh;
+        left: 40.4vw;
         }
       } 
  
       @keyframes move9{
       0%{
-        top: -28.16%;
-        left: 49%;
-        width:6vh;
-        height:6vh;
+        top: 46vh;
+        left: 49.3vw;
         background-color:#FF6619; //오렌지
         }
       50%{
-        top:-28.5%;
-        left: 51%;
+        top: 46.4vh;
+        left: 51vw;
         }
       100%{
-        top: -29%;
-        left: 53%;
+        top: 46vh;
+        left: 53vw;
         }
       }
 
       @keyframes move10{
       0%{
-        top: -37.55%;
-        left: 53%;
-        width:6vh;
-        height:6vh;
+        top: 43.7vh;
+        left: 55vw;
         background-color:lightblue;
         }
       50%{
-        top: -36.7%;
-        left: 51%;
+        top: 43.4vh;
+        left: 54vw;
         }
       100%{
-        top: -35.8%;
-        left: 49%;
+        top: 43vh;
+        left: 53vw;
         }
       }
+
       @keyframes move11{
-      0%{
-        top: -47.8%;
-        left: 58.8%;
-        width:6vh;
-        height:6vh;
+      0%{        
+        top: 44vh;
+        left: 58.8vw;
         background-color:yellow;
         }
       40%{
-        top:-68.2%;
-        left: 54%;
+        top:30vh;
+        left:54vw;
         }
       80%{
-        top:-49.5%;
-        left: 41%;
+        top:40vh;
+        left:41vw;
         }
       100%{
-        top: -39.1%;
-        left: 44%;
+        top:48vh;
+        left:44vw;
         }
       }
       @keyframes move12{
       0%{
-        top: -56.3%;
-        left: 36.2%;
-        width:6vh;
-        height:6vh;
+        top:45vh;
+        left: 27.6vw;
         background-color:purple;
         }
       40%{
-        top: -85.3%;
-        left: 46%;
+        top: 30vh;
+        left: 46vw;
         }
       75%{
-        top: -66.5%;
-        left: 59%;
+        top: 40vh;
+        left: 59vw;
         }
       100%{
-        top: -48.6%;
-        left: 55.5%;
+        top: 46vh;
+        left: 55.5vw;
         }
       }       
        
       @keyframes move13{
       0%{
-        top: -56.3%;
-        left: 47%;
-        width:6vh;
-        height:6vh;
+        top: 50vh;
+        left: 45vw;
         background-color:blue;
         }
       50%{
-        top: -53%;
-        left: 49%;
+        top: 53vh;
+        left: 49vw;
         }
       100%{
-        top: -57.1%;
-        left: 51%;
+        top: 50vh;
+        left: 51vw;
         }
-      } */
+      } 
 
        
     @keyframes final{     
@@ -667,86 +595,83 @@
         width:6vh;
         height:6vh;
         top: -26vh;
-        left: 50%;
+        left: 50vw;
         opacity: 1;
         }
 
       20%{
         top: -42.6vh;
-        left: 60%;
+        left: 60vw;
         }
 
       45%{
         top: -23.2vh;
-        left: 70%;
+        left: 70vw;
         }
       65%{
         top: -51.2vh;
-        left: 81%;
+        left: 81vw;
         }
       77%{
-        top: -23.2vh;
-        left: 86%;
+        top: -20vh;
+        left: 86vw;
         }
 
       92%{
-        top: -23.2vh;
-        left: 87%;
+        top: -20vh;
+        left: 87vw;
         }
 
       93%{
-        top: -23.2vh;
-        left: 92%;
+        top: -20vh;
+        left: 92vw;
         }
 
       94%{
-        top: -23.2vh;
-        left: 87%;
+        top: -20vh;
+        left: 87vw;
         }
 
       95%{
-        top: -23.2vh;
-        left: 88%;
+        top: -20vh;
+        left: 88vw;
         }
 
       96%{
-        top: -23.2vh;
-        left: 87%;
+        top: -20vh;
+        left: 87vw;
         }
 
       97%{
-        top: -23.2vh;
-        left: 88%;
+        top: -20vh;
+        left: 88vw;
         }
 
       98%{
-        top: -23.2vh;
-        left: 87%;
+        top: -20vh;
+        left: 87vw;
         }
 
       99%{
-        top: -23.2vh;
-        left: 88%;
+        top: -20vh;
+        left: 88vw;
         }
 
       100%{
         width:6vh;
         height:6vh;
-        top: -23.2vh;
-        left: 87.5%;
+        top: -20vh;
+        left: 87.5vw;
         opacity: 1;
         }
         }
-
-
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
 
 body{ 
   margin: 0;
   min-height: 100vh;
   position: relative;
   font-size: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 body *{box-sizing: border-box;}
@@ -776,9 +701,9 @@ body *{box-sizing: border-box;}
 
 .popup{
   position: relative;
-  width: 18em;
+  width: 35vw;
   background-color: lightyellow;
-  padding: 30px;
+  padding: 36px;
   border-radius: 1.5vw;
 }
     .linktomain:link{
@@ -792,8 +717,8 @@ body *{box-sizing: border-box;}
 .popup .close{
   position: absolute;
   font-size: 1.5em;
-  top: 0.3em;
-  right: 0.6em;
+  top: 4px;
+  right: 15px;
   color: red;
   cursor: pointer;
 }
@@ -803,7 +728,7 @@ body *{box-sizing: border-box;}
 }
 /* CSS Animation */
 .popup{
-  top: calc( 12em / 2 - 50vh - 12em); /* placing exactly above the view port 12em - height of popup*/
+  top: calc( 35vw / 2 - 50% - 35vw ); /* placing exactly above the view port 12em - height of popup*/
   transition: top 0.5s ;
   transition-timing-function: cubic-bezier(0.18, 0.15, 0.31, 1.87);
 }
