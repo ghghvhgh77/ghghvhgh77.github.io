@@ -70,15 +70,15 @@
     .movingballs{
 /*        position: absolute;*/
         width: 100%;
-        height: 100%;
-        top: 10%;
+        height: 10%;
+        top: 0;
         left: 0;
     }
 
      .ball1{
         position: absolute;
-        top: 48.8vh;
-        left: 32.2vw;
+        top: 48vh;
+        left: 32vw;
         width:6vh;
         height:6vh;
         background-color: red;
@@ -97,7 +97,7 @@
 
       .ball2{
         position: absolute;
-        top: 42vh;
+        top: 40vh;
         left: 48vw;
         width:6vh;
         height:6vh;
@@ -117,7 +117,7 @@
 
       .ball3{
         position: absolute;
-        top: 49.1vh;
+        top: 48vh;
         left: 38vw;
         width:6vh;
         height:6vh;
@@ -177,8 +177,8 @@
 
       .ball6{
         position: absolute;
-        top: 45vh;
-        left: 60vw;
+        top: 42.5vh;
+        left: 59vw;
         width:6vh;
         height:6vh;
         background-color: lightblue;
@@ -197,7 +197,7 @@
 
       .ball7{
         position: absolute;
-        top: 48vh;
+        top: 49vh;
         left: 59.8vw;
         width:6vh;
         height:6vh;
@@ -237,7 +237,7 @@
 
       .ball9{
         position: absolute;
-        top: 46vh;
+        top: 45vh;
         left: 49.3vw;
         width:6vh;
         height:6vh;
@@ -257,8 +257,8 @@
 
       .ball10{
         position: absolute;
-        top: 43.7vh;
-        left: 55vw;
+        top: 44.8vh;
+        left: 56vw;
         width:6vh;
         height:6vh;
         background-color:lightblue;
@@ -277,7 +277,7 @@
 
       .ball11{
         position: absolute;
-        top: 43vh;
+        top: 44vh;
         left: 64vw;
         width:6vh;
         height:6vh;
@@ -298,7 +298,7 @@
       .ball12{
         position: absolute;
         top:45vh;
-        left: 27.6vw;
+        left: 29vw;
         width:6vh;
         height:6vh;
         background-color:purple;
@@ -360,65 +360,69 @@
 
       @keyframes move1{
       0%{
-        top: 48.8vh;
-        left: 32.2vw;
+        top: 48vh;
+        left: 33vw;
         background-color: red;
         }
       50%{
-        top: 47vh;
-        left: 29.8vw;
+        top: 46vh;
+        left: 31vw;
         }
       100%{
-        top: 44vh;
-        left: 29vw;
+        top: 43vh;
+        left: 29.3vw;
         }
       } 
 
       @keyframes move2{
       0%{
-        top: 42vh;
+        top: 40vh;
         left: 47vw;
         background-color: lightgreen;
         }
       50%{
-        top: 45vh;
+        top: 43vh;
         left: 45vw;
         }
       100%{
-        top: 49vh;
-        left: 47vw;
+        top: 48.4vh;
+        left: 49vw;
         }
       } 
 
       @keyframes move3{
       0%{
-        top: 49.1vh;
+        top: 48vh;
         left: 38vw;
         background-color:yellow;
         }
       50%{
-        top: 47.5vh;
+        top: 46vh;
         left: 37vw;
         }
       100%{
-        top: 46.4vh;
+        top: 45vh;
         left: 36vw;
         }
       } 
 
       @keyframes move4{
       0%{
-        top: 50vh;
+        top: 49vh;
         left: 53vw;
         background-color:purple;
         }
-      0%{
-        top: 34vh;
+      50%{
+        top: 32vh;
+        left: 60vw;
+        }
+      65%{
+        top: 32vh;
         left: 57vw;
         }
       100%{
-        top: 46vh;
-        left: 44vw;
+        top: 45vh;
+        left: 43vw;
         }
       } 
 
@@ -438,42 +442,42 @@
         }
       100%{
         top: 44vh;
-        left: 64vw;
+        left: 63vw;
         }
       } 
 
       @keyframes move6{
       0%{
-        top: 45vh;
+        top: 42.5vh;
         left: 59vw;
         background-color:lightblue; /*오른쪽에서 왼쪽으로 움직이는애*/
         }
-      50%{
-        top: 46vh;
+      30%{
+        top: 47vh;
         left: 60vw;
         }
       100%{
-        top: 49vh;
-        left: 59vw;
+        top: 48.3vh;
+        left: 58.7vw;
         }
       }   
 
       @keyframes move7{
       0%{
-        top: 48vh;
+        top: 49vh;
         left: 59.8vw;
         background-color:salmon;
         }
       30%{
-        top: 52vh;
+        top: 51vh;
         left: 40vw;
         }
       50%{
-        top: 50vh;
+        top: 49vh;
         left: 40vw;
         }
       100%{
-        top: 48.8vh;
+        top: 48vh;
         left: 32.6vw;
       }
     }
@@ -488,52 +492,52 @@
         top: 30vh;
         left: 38vw;
         }
-      60%{
+      70%{
         top: 40.9vh;
         left: 41vw;
         }     
       100%{
-        top: 50vh;
-        left: 40.4vw;
+        top: 49vh;
+        left: 39vw;
         }
       } 
  
       @keyframes move9{
       0%{
-        top: 46vh;
+        top: 45vh;
         left: 49.3vw;
         background-color:#FF6619; //오렌지
         }
       50%{
-        top: 46.4vh;
+        top: 45vh;
         left: 51vw;
         }
       100%{
-        top: 46vh;
+        top: 43vh;
         left: 56vw;
         }
       }
 
       @keyframes move10{
       0%{
-        top: 43.7vh;
-        left: 55vw;
+        top: 44.8vh;
+        left: 56vw;
         background-color:lightblue;
         }
       50%{
-        top: 43.4vh;
+        top: 42.4vh;
         left: 54vw;
         }
       100%{
         top: 43vh;
-        left: 52vw;
+        left: 50vw;
         }
       }
 
       @keyframes move11{
       0%{        
         top: 44vh;
-        left: 58.8vw;
+        left: 64vw;
         background-color:yellow;
         }
       40%{
@@ -545,14 +549,14 @@
         left:41vw;
         }
       100%{
-        top:48vh;
+        top:49vh;
         left:44vw;
         }
       }
       @keyframes move12{
       0%{
         top:45vh;
-        left: 27.6vw;
+        left: 29vw;
         background-color:purple;
         }
       40%{
