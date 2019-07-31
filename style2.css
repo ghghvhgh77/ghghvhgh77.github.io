@@ -696,9 +696,14 @@ body *{box-sizing: border-box;}
   padding: 35px;
 }
 
+p#ment {
+    word-break: keep-all;
+    text-align: center;
+}
+
 .popup{
   position: relative;
-  width: 35vw;
+  width: 40vw;
   background-color: lightyellow;
   padding: 36px;
   border-radius: 1.5vw;
