@@ -336,9 +336,9 @@
         }
 
       .finball{
-        position: relative;
+        position: absolute;
         z-index: 1000;
-        top: -26vh;
+        top: 77vh;
         left: 50vw;
         width:6vh;
         height:6vh;
@@ -357,6 +357,7 @@
         animation-delay: 2.5s;
         opacity: 0;
         }
+
 
       @keyframes move1{
       0%{
@@ -593,75 +594,71 @@
     @keyframes final{     
 
       0%{
-        width:6vh;
-        height:6vh;
-        top: -26vh;
+        top: 77vh;
         left: 50vw;
         opacity: 1;
         }
 
       20%{
-        top: -42.6vh;
+        top: 83vh;
         left: 60vw;
         }
 
-      45%{
-        top: -23.2vh;
+      40%{
+        top: 55vh;
         left: 70vw;
         }
-      65%{
-        top: -51.2vh;
-        left: 81vw;
+      60%{
+        top: 83vh;
+        left: 78vw;
         }
-      77%{
-        top: -20vh;
+      75%{
+        top: 63vh;
         left: 86vw;
         }
 
       92%{
-        top: -20vh;
+        top: 83vh;
         left: 87vw;
         }
 
       93%{
-        top: -20vh;
-        left: 92vw;
+        top: 83vh;
+        left: 88vw;
         }
 
       94%{
-        top: -20vh;
+        top: 83vh;
         left: 87vw;
         }
 
       95%{
-        top: -20vh;
+        top: 83vh;
         left: 88vw;
         }
 
       96%{
-        top: -20vh;
+        top: 83vh;
         left: 87vw;
         }
 
       97%{
-        top: -20vh;
+        top: 83vh;
         left: 88vw;
         }
 
       98%{
-        top: -20vh;
+        top: 83vh;
         left: 87vw;
         }
 
       99%{
-        top: -20vh;
+        top: 83vh;
         left: 88vw;
         }
 
       100%{
-        width:6vh;
-        height:6vh;
-        top: -20vh;
+        top: 83vh;
         left: 87.5vw;
         opacity: 1;
         }
