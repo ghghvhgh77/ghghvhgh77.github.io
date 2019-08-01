@@ -17,15 +17,6 @@
     background-color: #F45F16;
   }
 
-    /*@media screen and (min-width: 768px){
-    #btnDiv{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-    }
-  }*/
-  
   
 a {
   text-decoration: none;
@@ -83,6 +74,12 @@ a {
   position: relative;
   transition: all 5s ease-in-out;
 }
+
+p#popup1 {
+    word-break: keep-all;
+    text-align: center;
+}
+
 .popup .close {
   position: absolute;
   top: 5px;
@@ -125,9 +122,9 @@ a {
 .btn {
     display: inline-block;
     position: relative;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border-radius: 10%;
+    width: 270px;
+    height: 75px;
     margin: 2vw;
     color: white;
     font-size: 1.25rem;
