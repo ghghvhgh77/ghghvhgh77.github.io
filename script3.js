@@ -15,6 +15,7 @@ $(function(){
   setTimeout(function(){
     document.querySelector('.popup').classList.add('drop')},5000);
 
+
   function mentr(){
     var ment = new Array();
     ment[0] = "지칠 때 호올스 XS 3단계를 입에 넣고 물을 한모금 마셔보세요. 정신을 차리다 못해 각성의 효과를 만날 수 있게 됩니다. 가끔은 위로보다 따끔한 한 방이 필요하기도 하니까요.";
