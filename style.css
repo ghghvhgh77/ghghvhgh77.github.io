@@ -112,7 +112,7 @@ p#popup1 {
   color: #FDE9E0;
   position: absolute;
   left: 50%;
-  top:30vh;
+  top:28vh;
   transform: translateX(-50%);
   text-align: center;
   text-decoration: none;
