@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
 /*    background-image: radial-gradient(closest-side at 50% 50%, white 65%, lightpink, navy);*/
-  background-image: radial-gradient(white 62%, #D2B830 10%);
+  background-image: radial-gradient(white 62%, #D2B830 10%); //노랑+회색+.. 
    /* background-image: radial-gradient(circle, red, yellow, green);*/
     /*background-image: repeating-radial-gradient(red, yellow 10%, green 15%);*/
   }
@@ -708,6 +708,9 @@ p#ment {
   background-color: lightyellow;
   padding: 36px;
   border-radius: 1.5vw;
+  -webkit-box-shadow: 10px 10px 100px 0px rgba(56,56,88,1);
+  -moz-box-shadow: 10px 10px 100px 0px rgba(56,56,88,1);
+  box-shadow: 10px 10px 100px 0px rgba(56,56,88,1);
 }
     .linktomain:link{
     text-decoration: none;
